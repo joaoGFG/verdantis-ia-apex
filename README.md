@@ -18,6 +18,8 @@ A IA foi implementada no banco de dados para atuar como um **Gerador Automático
 
 ## ⚙️ Fluxo de Comunicação (APEX > Oracle DB > IA)
 
+![Diagrama](image.png)
+
 1. O usuário insere os dados de rastreabilidade do lote na interface gráfica do **Oracle APEX** e aciona a análise.
 2. O sistema executa um processo PL/SQL usando o pacote nativo `APEX_WEB_SERVICE`.
 3. O Oracle Database monta um payload JSON com as variáveis e faz uma requisição HTTP POST (REST) para o endpoint do modelo LLM.
