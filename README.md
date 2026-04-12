@@ -12,7 +12,7 @@ A IA foi implementada no banco de dados para atuar como um **Gerador Automático
 ## 🧠 Arquitetura e IA
 
 * **O Problema:** Dados de rastreabilidade agrícola (variações de temperatura, umidade, uso de defensivos) são puramente técnicos e difíceis de interpretar. Auditores internacionais e consumidores finais precisam de garantias claras, não de logs de banco de dados.
-* **Modelo Escolhido:** LLM (Large Language Model) integrado via API REST (Google Gemini 1.5 Flash).
+* **Modelo Escolhido:** LLM (Large Language Model) integrado via API REST (Google gemini-3-flash-preview).
 * **Justificativa:** Optamos por consumir um LLM pré-treinado via API devido à necessidade de interpretação de contexto e geração de texto narrativo. A técnica de *Zero-shot prompting* elimina a necessidade de treinar um modelo de Machine Learning do zero, entregando resultados de alta qualidade de forma ágil, com baixo custo computacional local e integração direta com o PL/SQL.
 * **Dados Utilizados:** Dados técnicos do lote agrícola (produto, número do lote, temperatura, certificações) capturados no front-end e enviados em formato JSON. Quantidade mínima: 1 lote por inferência.
 
