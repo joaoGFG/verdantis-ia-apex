@@ -7,7 +7,7 @@ Este repositório contém a documentação e a integração do componente de Int
 A IA foi implementada no banco de dados para atuar como um **Gerador Automático de Relatórios de Sustentabilidade**, transformando dados técnicos brutos de lotes agrícolas em atestados comerciais claros usando processamento de linguagem natural.
 
 ## 🎥 Pitch e Demonstração
-[Assista ao vídeo de apresentação da arquitetura e funcionamento (YouTube)](#) *(⚠️ Substitua este # pelo link do seu vídeo não listado)*
+[Assista ao vídeo de apresentação da arquitetura e funcionamento (YouTube)](https://youtu.be/Zm3sUfeqVUI) 
 
 ## 🧠 Arquitetura e IA
 
